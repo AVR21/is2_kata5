@@ -23,7 +23,7 @@ public class CommandFactorial implements Command{
             public String result() {
                 return String.valueOf(factorial(num));
             }
-        }
+        };
     }
 
     private Output nanNum(){
